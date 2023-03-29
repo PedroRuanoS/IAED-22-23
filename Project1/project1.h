@@ -32,7 +32,6 @@
 #define FALSE 0 /*falso*/
 
 /* TIPOS DE DADOS */
-
 typedef struct {
     char nome[MAX_NOME_PARAGEM];
     double latitude;
