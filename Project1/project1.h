@@ -27,6 +27,7 @@
 #define ERRO_LIG_PARAGEM_NAO_EXISTE "no such stop."/*paragem não existe - l*/
 #define ERRO_N_EXTREM "link cannot be associated with bus line."/*não extremo*/
 #define ERRO_VALOR_NEGATIVO "negative cost or duration."/*valor negativo*/
+
 #define TRUE 1 /*verdadeiro*/
 #define FALSE 0 /*falso*/
 
