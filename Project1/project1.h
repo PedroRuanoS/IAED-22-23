@@ -109,11 +109,9 @@ int erro_paragem_extremo(Geral *sistema, char **comando);
 
 void iniciar_ligacao(Geral *sistema, char **comando);
 
-int id_carreira(Geral *sistema, char **comando);
+int id_carreira(Geral *sistema, char nome_carreira[]);
 
-int id_prim_paragem(Geral *sistema, char **comando);
-
-int id_seg_paragem(Geral *sistema, char **comando);
+int id_paragem(Geral *sistema, char nome_paragem[]);
 
 void posicionar_ligac(Geral *sistema, char **comando, int ids[], int *inicio);
 
