@@ -29,7 +29,7 @@ void listar_carreiras(Geral *sistema) {
     }
 }
 
-/* Função listar_carreiras recebe o endereço da variável sistema, o nome de uma
+/* Função listar_paragens_carr recebe o endereço da variável sistema, o nome de uma
 carreira e um inteiro (0 ou 1), se o mesmo for 0, a função lista as paragens da
 carreira recebida da origem ao destino, se for 1, do destino à origem */
 void listar_paragens_carr(Geral *sistema, char nome_carreira[], int inverso) {

@@ -12,7 +12,7 @@
 #include <string.h>
 #include <ctype.h>
 
-/* TODAS AS FUNÇÕES DESTE DOCUMENTO (EXCETO mover_ligacoes, alterar_paragens,
+/* Todas as funções deste documento (exceto mover_ligacoes, alterar_paragens,
 par_ligada_carr e alter_n_carrs_par): recebem o endereço da variável sistema
 e um ponteiro para um ponteiro (que é uma lista de ponteiros, cujo cada 
 ponteiro aponta para um elemento/palavra do comando) - resto das variáveis
